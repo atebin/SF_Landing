@@ -1,3 +1,4 @@
+/* common */
     body{
         margin: 0px;
     }
@@ -17,74 +18,74 @@
         z-index: 1;
     }
 
-    .avt-button{
-        font-style: italic;
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 15px;
-        text-align: center;
-        text-transform: uppercase;
+    /* buttons */
+        .avt-button{
+            font-style: italic;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 1.3;
+            text-align: center;
+            text-transform: uppercase;
 
-        background: #E3B873;
-        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-        border-radius: 2px;
-        border: none;
-        outline: none;
-        padding: 13px 33px;
-        
-        color: #FFFFFF;
+            box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+            border-radius: 2px;
+            border: none;
+            outline: none;
 
-        width: 161px;
-        cursor: pointer;
-    }
+            cursor: pointer;
+        }
 
-    .avt-button__trasparentw{
-        font-style: italic;
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 15px;
-        text-align: center;
-        text-transform: uppercase;
+        .avt-button__beige{
+            background: #E3B873;
+            border: solid 1px transparent;
+            color: #FFFFFF;
+        }
+        .avt-button__beige:hover{
+            background: none;
+            border: solid 1px #ffffff;
+        }
 
-        background: none;
-        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-        border-radius: 2px;
-        border: solid 1px;
-        outline: none;
-        padding: 13px 33px;
-        
-        color: #FFFFFF;
+        .avt-button__transparent{
+            color: #FFFFFF;
+            background: none;
+            border: solid 1px #ffffff;
+        }
+        .avt-button__transparent:hover{
+            background: #E3B873;
+            border: solid 1px transparent;
+        }
+    
+    /* captions */
+        .avt-title{
+            font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: uppercase;
+            margin: 0px;  
+        }
+        .avt-title__h1{
+            font-size: 40px;
+            line-height: 53px;
+            
+            color: #FFFFFF;  
+            padding-top: 194px;
+            width: 680px;
+        }
 
-        width: 161px;
-        cursor: pointer;
-    }
+        .avt-title__h6{
+            font-family: 'Nunito Sans', Arial, sans-serif;
+            text-transform: none;
 
-    .avt-caption__h1{
-        font-family: 'Yeseva One', 'Times New Roman', Times, serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 40px;
-        line-height: 53px;
-        text-transform: uppercase;
-        
-        color: #FFFFFF;  
-        margin: 0px;  
-        padding-top: 194px;
-        width: 680px;
-    }
+            font-size: 22px;
+            line-height: 36px;
+            
+            color: #FFFFFF;    
+        }
 
-    .avt-text__primary{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        line-height: 36px;
-        
-        color: #FFFFFF;    
-    }
-
-    .avt-text__beige{
-        color: #E3B873;;
-    }
+        .avt-text__beige_serif{
+            font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+            color: #E3B873;;
+        }
 
 /* header */
     .avt-header{
@@ -96,6 +97,7 @@
         align-items: center;
         height: 83px;
     }
+
     .avt-header__logo{
         font-style: normal;
         font-weight: normal;
@@ -104,6 +106,10 @@
         text-transform: uppercase;
         color: #E3B873;
     }
+    .avt-header__logo:hover{
+        color: white;
+    }
+
     .avt-header__tel{
         font-style: normal;
         font-weight: normal;
@@ -113,10 +119,15 @@
         text-decoration-line: underline;
         color: #E3B873;
     }
+    .avt-header__tel:hover{
+        color: white;
+    }
+
     .avt-header-navigation{
         list-style: none;
         display: flex;
     }
+    
     .avt-header-navigation__list{
         margin-right: 47px;
     }
@@ -127,6 +138,14 @@
         line-height: 15px;
         text-decoration: none;
         color: white;
+    }
+    .avt-header-navigation__link:hover{
+        color: #E3B873;
+    }
+
+    .avt-header__button{
+        padding: 13px 33px;
+        width: 161px;
     }
 
 /* firstblock */
