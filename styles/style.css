@@ -340,10 +340,12 @@
     }
 
     .avt-projects-detail-bottomnav-block-item{
-        display: flex;
-        justify-content: space-between;
         width: 10px;
         height: 10px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .avt-projects-detail-bottomnav-block-item--active{
+        background-color: #fff;
     }
