@@ -270,7 +270,7 @@
     .avt-projects-detail-photo{
     }
 
-    .avt-projects-detail-datas-bloks{
+    .avt-projects-detail-data-blocks{
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -278,21 +278,72 @@
         align-items: flex-start;
     }
 
-    .avt-projects-detail-datas-bloks-items{
+    .avt-projects-detail-datas-items{
         width: 190px;
-        margin-right: 29px;
-        margin-bottom: 34px;
+        padding-right: 29px;
+        padding-bottom: 34px;
     }
 
-    .avt-projects-detail-datas-bloks-items__h4{
+    .avt-projects-detail-datas-items--break{
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    .avt-projects-detail-datas-items__h4{
         color: #E3B873;
         margin-bottom: 9px;
         text-transform: uppercase;
     }
 
-    .avt-projects-detail-datas-bloks-items__p{
+    .avt-projects-detail-datas-items__p{
         font-size: 13px;
         line-height: 1.616;
         
         color: #FFFFFF;    
+    }
+
+    .avt-projects-detail-bottomnav{
+        align-self: flex-end;
+    }
+
+    .avt-projects-detail-bottomnav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*margin-left: 30px;*/
+        width: calc(41px + 29px + 64px + 29px + 41px);
+    }
+
+    .avt-projects-detail-bottomnav:before{
+        content: "";
+        background-image: url("../images/arrow_l.png");
+        background-size: cover;
+        width: 41px;
+        height: 13px;
+        margin-right: 29px;
+    }
+
+    .avt-projects-detail-bottomnav:after{
+        content: "";
+        background-image: url("../images/arrow_r.png");
+        background-size: cover;
+        width: 41px;
+        height: 13px;
+        margin-left: 29px;
+    }
+
+    .avt-projects-detail-bottomnav-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 64px;
+    }
+
+    .avt-projects-detail-bottomnav-block-item{
+        display: flex;
+        justify-content: space-between;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
     }
