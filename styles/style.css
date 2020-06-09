@@ -379,12 +379,13 @@
         height: 28px;
         margin: 0 auto;
         width: calc(9px + 32px + 9px + 32px + 9px + 32px + 9px);
-        margin: 0 auto 31px auto;
+        margin: 0 auto;
+        margin-bottom: 31px;
     }
 
     .avt-control-iconblock__icon:before, .avt-control-iconblock__icon:after{
-        content: ".";
-        background-image: url("../images/line_beige.png");
+        content: "";
+        background-image: url("../images/line1_beige.png");
         background-size: cover;
         width: 32px;
         height: 3px;
@@ -395,6 +396,7 @@
         width: 817px;
         height: 434px;
         margin: 0 auto;
+        margin-bottom: 62px;
         background-image: url("../images/control_perview.jpg");
         background-size: cover;
         position: relative;
@@ -404,10 +406,65 @@
         content: "";
         width: 817px;
         height: 434px;
-        /*margin: 0 auto;*/
         top: 0px;
         left: 0px;
         background: rgba(0, 0, 0, 0.8);
         position: absolute;
-        /*z-index: 1;*/
     }    
+
+    .avt-control-cameraview:after{
+        content: "";
+        width: 85px;
+        height: 85px;
+        top: calc(50% - 42px);
+        left: calc(50% - 42px);
+        background: #E3B873;
+        background-image: url("../images/polygon_3.png");
+        /*padding: 28px;*/
+        background-size: 28px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        border-radius: 50%;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    }    
+
+    .avt-control__line{
+        background-image: url("../images/line2_beige.png");
+        background-size: cover;
+        width: 55px;
+        height: 3px;
+        margin: 62px auto 34px auto;
+    }
+
+    .avt-control__p{
+        width: 681px;
+        font-size: 18px;
+        line-height: 37px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 91px;
+
+        color: #363636;
+    }
+
+    .avt-control-form{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 51px;
+        width: 769px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    .avt-control-form-inputblock{
+        width: 231px;
+        background: #E3B873;
+    }
+
+    .avt-control-form-button{
+        width: 200px;
+        background: #363636;
+    }
+
