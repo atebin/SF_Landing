@@ -18,87 +18,92 @@
         z-index: 1;
     }
 
-    /* buttons */
-        .avt-button{
-            font-style: italic;
-            font-weight: normal;
-            font-size: 11px;
-            line-height: 1.3;
-            text-align: center;
-            text-transform: uppercase;
+/* buttons */
+    .avt-button{
+        font-style: italic;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 1.3;
+        text-align: center;
+        text-transform: uppercase;
 
-            box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-            border-radius: 2px;
-            border: none;
-            outline: none;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        border: none;
+        outline: none;
 
-            cursor: pointer;
-        }
+        cursor: pointer;
+    }
 
-        .avt-button__beige{
-            background: #E3B873;
-            border: solid 1px transparent;
-            color: #FFFFFF;
-        }
-        .avt-button__beige:hover{
-            background: none;
-            border: solid 1px #ffffff;
-        }
+    .avt-button__beige{
+        background: #E3B873;
+        border: solid 1px transparent;
+        color: #FFFFFF;
+    }
+    .avt-button__beige:hover{
+        background: none;
+        border: solid 1px #ffffff;
+    }
 
-        .avt-button__transparent{
-            color: #FFFFFF;
-            background: none;
-            border: solid 1px #ffffff;
-        }
-        .avt-button__transparent:hover{
-            background: #E3B873;
-            border: solid 1px transparent;
-        }
-    
-    /* captions */
-        .avt-title{
-            font-family: 'Yeseva One', 'Times New Roman', Times, serif;
-            font-style: normal;
-            font-weight: normal;
-            text-transform: uppercase;
-            margin: 0px;
-            padding: 0px;  
-        }
+    .avt-button__transparent{
+        color: #FFFFFF;
+        background: none;
+        border: solid 1px #ffffff;
+    }
+    .avt-button__transparent:hover{
+        background: #E3B873;
+        border: solid 1px transparent;
+    }
 
-        .avt-title__h1{
-            font-size: 40px;
-            line-height: 1.325;
+/* captions */
+    .avt-title{
+        font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 0px;
+        padding: 0px;  
+    }
 
-            color: #FFFFFF;  
-            padding-top: 194px;
-            width: 680px;
-        }
+    .avt-title__h1{
+        font-size: 40px;
+        line-height: 1.325;
 
-        .avt-title__h2{
-            font-size: 27px;
-            line-height: 1.325;
-            letter-spacing: -0.07em;
-        }
+        color: #FFFFFF;  
+        padding-top: 194px;
+        width: 680px;
+    }
 
-        .avt-title__h4{
-            font-size: 18px;
-            line-height: 1.389;
-        }
+    .avt-title__h2{
+        font-size: 27px;
+        line-height: 1.325;
+        letter-spacing: -0.07em;
+    }
 
-        .avt-title__h6{
-            font-family: 'Nunito Sans', Arial, sans-serif;
-            text-transform: none;
+    .avt-title__h3{
+        font-size: 20px;
+        line-height: 1.4;
+    }
 
-            font-size: 22px;
-            line-height: 36px;
-            
-            color: #FFFFFF;    
-        }
+    .avt-title__h4{
+        font-size: 18px;
+        line-height: 1.389;
+    }
 
-        .avt-text__beige_serif{
-            font-family: 'Yeseva One', 'Times New Roman', Times, serif;
-            color: #E3B873;;
-        }
+    .avt-title__h6{
+        font-family: 'Nunito Sans', Arial, sans-serif;
+        text-transform: none;
+
+        font-size: 22px;
+        line-height: 36px;
+        
+        color: #FFFFFF;    
+    }
+
+    .avt-text__beige_serif{
+        font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+        color: #E3B873;;
+    }
 
 /* header */
     .avt-header{
@@ -349,3 +354,60 @@
     .avt-projects-detail-bottomnav-block-item--active{
         background-color: #fff;
     }
+
+/* control */
+    
+    .avt-control{
+        margin-top: -298px;
+        text-align: center;
+    }
+
+    .avt-control__h3{
+        color: #fff;
+        margin-bottom: 12px;
+    }
+
+    .avt-control-iconblock{
+        width: calc(32px + 9px + 32px + 9px + 32px + 20px);
+        margin: 0 auto;
+    }
+   
+    .avt-control-iconblock__icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 28px;
+        margin: 0 auto;
+        width: calc(9px + 32px + 9px + 32px + 9px + 32px + 9px);
+        margin: 0 auto 31px auto;
+    }
+
+    .avt-control-iconblock__icon:before, .avt-control-iconblock__icon:after{
+        content: ".";
+        background-image: url("../images/line_beige.png");
+        background-size: cover;
+        width: 32px;
+        height: 3px;
+        margin: 0px 9px;
+    }
+
+    .avt-control-cameraview{
+        width: 817px;
+        height: 434px;
+        margin: 0 auto;
+        background-image: url("../images/control_perview.jpg");
+        background-size: cover;
+        position: relative;
+    }
+
+    .avt-control-cameraview:before{
+        content: "";
+        width: 817px;
+        height: 434px;
+        /*margin: 0 auto;*/
+        top: 0px;
+        left: 0px;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        /*z-index: 1;*/
+    }    
