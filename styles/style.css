@@ -8,8 +8,13 @@
         box-sizing: border-box;
     }
 
-    .avt-container__main{
+    .avt-container__topnav{
         max-width: 1250px;
+        margin: 0px auto;
+    }
+
+    .avt-container__main{
+        width: 1171px;
         margin: 0px auto;
     }
 
@@ -378,7 +383,7 @@
         margin: 0 auto;
     }
    
-    .avt-control-iconblock__icon{
+    .avt-control-iconblock__icon, .avt-repair-iconblock__icon{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -389,7 +394,8 @@
         margin-bottom: 31px;
     }
 
-    .avt-control-iconblock__icon:before, .avt-control-iconblock__icon:after{
+    .avt-control-iconblock__icon:before, .avt-control-iconblock__icon:after, 
+    .avt-repair-iconblock__icon:before, .avt-repair-iconblock__icon:after {
         content: "";
         background-image: url("../images/line1_beige.png");
         background-size: cover;
@@ -433,7 +439,12 @@
         position: absolute;
         border-radius: 50%;
         box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+        cursor: pointer;
     }    
+
+    .avt-control-cameraview:hover:after{
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.6);
+    }
 
     .avt-control__line{
         background-image: url("../images/line2_beige.png");
@@ -470,7 +481,6 @@
 
     .avt-control-form-line1-inputblock{
         width: 231px;
-        /*height: 42px;*/
         text-align: left;
 
         display: flex;
@@ -493,7 +503,6 @@
         width: 100%;
         font-size: 14px;
         line-height: 1;
-        /*margin-bottom: 8px;*/
         color: #363636;
         border: none;
         padding-bottom: 3px;
@@ -550,5 +559,50 @@
     }
 
     .avt-control-form-line2__check+.avt-control-form-line2__label:hover {
-        color: #E3B873;
+        color: rgba(54, 54, 54, 0.7);
+
+    }
+
+/* repair */
+    .avt-repair__h3{
+        color: #181818;
+        text-align: center;
+    }
+
+    .avt-repair-blocks-photo{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: calc(392px + 30px + 392px + 30px + 392px);
+        margin: 0px auto;
+    }
+
+    .avt-repair-blocks-text{
+        margin-top: -127px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .avt-repair-blocks-text-item{
+        width: 330px;
+        height: 286px;
+        padding: 25px 34px;
+        background-color: #FFFFFF;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    }
+     
+    .avt-repair-blocks-text-item__h4{
+        color: #363636;
+        text-transform: none;
+    }
+
+    .avt-repair-blocks-text-ul{
+        padding: 0px;
+    }
+
+    .avt-repair-blocks-text-li{
+        font-size: 13px;
+        line-height: 2.077;
+        list-style-position: inside;
     }
