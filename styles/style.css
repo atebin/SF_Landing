@@ -45,6 +45,12 @@
         border: solid 1px #ffffff;
     }
 
+    .avt-button__beige_white{
+        background: #E3B873;
+        border: solid 1px transparent;
+        color: #FFFFFF;
+    }
+
     .avt-button__transparent{
         color: #FFFFFF;
         background: none;
@@ -449,22 +455,99 @@
     }
 
     .avt-control-form{
+        margin-bottom: 75px;
+    }
+
+    .avt-control-form-line1{
         display: flex;
         justify-content: space-between;
         align-items: stretch;
         height: 51px;
         width: 769px;
         margin: 0 auto;
-        margin-bottom: 35px;
+        margin-bottom: 33px;
     }
 
-    .avt-control-form-inputblock{
+    .avt-control-form-line1-inputblock{
         width: 231px;
-        background: #E3B873;
+        /*height: 42px;*/
+        text-align: left;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .avt-control-form-button{
+    .avt-control-form-line1-inputblock__caption{
+        padding: 0px;
+        margin: 0px;
+        font-size: 13px;
+        line-height: 1;
+        margin-bottom: 3px;
+        color: rgba(54, 54, 54, 0.5);
+    }
+
+    .avt-control-form-line1-inputblock__input{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1;
+        /*margin-bottom: 8px;*/
+        color: #363636;
+        border: none;
+        padding-bottom: 3px;
+        border-bottom: solid 1px rgba(54, 54, 54, 0.3);
+    }
+
+    .avt-control-form-line1-inputblock__button{
         width: 200px;
-        background: #363636;
+        font-style: normal;
     }
 
+    .avt-control-form-line1-inputblock__button:hover{
+        color: #131313;
+    }
+
+    .avt-control-form-line2{
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .avt-control-form-line2__check{
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .avt-control-form-line2__label{
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    /*.avt-control-form-line2__check+avt-control-form-line2__label{
+        display: inline-flex;
+        align-items: center;
+    }*/
+
+    .avt-control-form-line2__label:before{
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        background-color: #E3B873;
+        border-radius: 1px;
+        margin-right: 8px;
+    }
+    .avt-control-form-line2__label:hover:before{
+        background-image: url("../images/checkbox_checked.svg");
+        background-position: center center;
+        background-size: 70% 70%;
+        background-repeat: no-repeat;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.8);
+    }
