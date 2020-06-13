@@ -1,16 +1,29 @@
 @media screen and (max-width: 375px){
     .avt-container__topnav{
-        max-width: 339px;
+        max-width: 340px;
     }
 
     .avt-container__main{
-        max-width: 339px;
+        max-width: 340px;
     }
 
     .avt-container__header{
         height: 57px;
     }
 
+    .avt-visible-mobile_line{
+        display: inline-block;
+    }
+
+    .avt-visible-desctop_line{
+        display: none;
+    }
+
+    .avt-title__h4 {
+        font-size: 14px;
+    }
+
+/* header */
     .avt-header__logo{
         text-decoration-line: none;
     }
@@ -28,14 +41,100 @@
         display: none;
     }
 
+/* first */
+
     .avt-first__h1{
-        padding-top: 185px;
+        padding-top: 85px;
         width: 100%;
         font-size: 23px;
+        margin-bottom: 16px;;
     }
 
+    .avt-title__h6{
+        font-size: 14px;
+        line-height: 1.358;
+    }
+
+    .avt-container__2button{
+        flex-direction: column;
+    }
+
+    .avt-first__button{
+        width: 100%;
+        margin-bottom: 26px;
+    }
+
+/* projects */
+    .avt-projects-rownav, .avt-projects-detail-bottomnav, .avt-projects-colright {
+        display: none;
+    }
+
+    .avt-projects-detail-datas__h2{
+        text-align: center;
+    }
+
+    .avt-projects-detail-datas__p{
+        font-size: 11px;
+        line-height: 1.585;
+        text-align: center;
+    }
+
+    .avt-projects-detail-datas-items{
+        width: 50%;
+    }
+{
+        display: none;
+    }
+
+
+/* control */
+    .avt-control-cameraview, .avt-control-cameraview:before{
+        width: 340px;
+        height: 207px;
+    }
+
+    .avt-control-form{
+
+    }
+    
+    .avt-control-form-line1{
+        flex-direction: column;
+        width: 340px;
+    }
+
+    .avt-control-form-line1-inputblock{
+        width: 340px;
+    }
+
+    .avt-control__p{
+        width: 340px;
+        font-size: 11px;
+        line-height: 1.7;
+        margin-bottom: 61px;
+    }
+
+    .avt-control-form-line1-inputblock:first-child{
+        margin-bottom: 63px;
+    }
+
+/* repair */
     .avt-repair-blocks-photo{
         flex-direction: column;
+        width: 340px;
+    }
+
+    .avt-repair-blocks-photo-items{
+        margin-bottom: 79px;
+    }
+
+    .avt-repair-blocks-img-item{
+        width: 340px;
+        height: 365px;
+    }
+    .avt-repair-blocks-text-item{
+        width: 270px;
+        height: 241px;
+        margin-top: -110px;
     }
 
 }

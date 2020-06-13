@@ -18,9 +18,23 @@
         margin: 0px auto;
     }
 
+    .avt-container__repair{
+        max-width: 1236px;
+        margin: 0px;
+        margin: 0px auto;
+    }
+
     .avt-container__zindex1{
         position: relative;
         z-index: 1;
+    }
+
+    .avt-visible-mobile_line{
+        display: none;
+    }
+
+    .avt-visible-desctop_line{
+        display: inline-block;
     }
 
 /* buttons */
@@ -458,7 +472,7 @@
     }
 
     .avt-control__p{
-        width: 681px;
+        max-width: 681px;
         font-size: 18px;
         line-height: 37px;
         text-align: center;
@@ -469,7 +483,7 @@
     }
 
     .avt-control-form{
-        margin-bottom: 75px;
+        margin-bottom: 147px;
     }
 
     .avt-control-form-line1{
@@ -527,7 +541,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        align-content: center;
+        /*align-content: center;*/
     }
 
 
@@ -576,7 +590,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        width: calc(392px + 30px + 392px + 30px + 392px);
+        max-width: calc(392px + 30px + 392px + 30px + 392px);
         margin: 0px auto;
     }
 
@@ -587,6 +601,11 @@
         align-items: flex-start;
         margin-bottom: 81px;
     }*/
+
+    .avt-repair-blocks-img-item{
+        width: 392px;
+        height: 421px;
+    }
 
     .avt-repair-blocks-text-item{
         width: 330px;
