@@ -14,7 +14,7 @@
     }
 
     .avt-container__main{
-        width: 1171px;
+        max-width: 1171px;
         margin: 0px auto;
     }
 
@@ -79,10 +79,6 @@
     .avt-title__h1{
         font-size: 40px;
         line-height: 1.325;
-
-        color: #FFFFFF;  
-        padding-top: 194px;
-        width: 680px;
     }
 
     .avt-title__h2{
@@ -193,6 +189,13 @@
         left: 0px;
         top: 0px;
     }
+
+    .avt-first__h1{
+        color: #FFFFFF;  
+        padding-top: 194px;
+        width: 680px;
+    }
+
     .avt-container__2button{
         margin-top: 41px;
         display: flex;
@@ -577,12 +580,13 @@
         margin: 0px auto;
     }
 
-    .avt-repair-blocks-text{
+    /*.avt-repair-blocks-text{
         margin-top: -127px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-    }
+        margin-bottom: 81px;
+    }*/
 
     .avt-repair-blocks-text-item{
         width: 330px;
@@ -590,19 +594,42 @@
         padding: 25px 34px;
         background-color: #FFFFFF;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+        position: relative;
+
+        margin: 0px auto;
+        margin-top: -135px;
     }
      
     .avt-repair-blocks-text-item__h4{
         color: #363636;
         text-transform: none;
+        margin-bottom: 13px;
     }
 
     .avt-repair-blocks-text-ul{
         padding: 0px;
+        margin: 0px;
     }
 
     .avt-repair-blocks-text-li{
         font-size: 13px;
-        line-height: 2.077;
+        line-height: 1.95;
         list-style-position: inside;
+    }
+
+    .avt-repair-blocks-text__button{
+        position: absolute;
+        left: 0px;
+        bottom: -27px;
+        width: 228px;
+        height: 54px;
+        box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+        font-size: 18px;
+        line-height: 1.389;
+        background: #E3B873;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 17px 5px;
+        font-size: 400;
     }

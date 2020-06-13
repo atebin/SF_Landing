@@ -1,0 +1,41 @@
+@media screen and (max-width: 375px){
+    .avt-container__topnav{
+        max-width: 339px;
+    }
+
+    .avt-container__main{
+        max-width: 339px;
+    }
+
+    .avt-container__header{
+        height: 57px;
+    }
+
+    .avt-header__logo{
+        text-decoration-line: none;
+    }
+        
+    .avt-header__tel{
+        text-decoration-line: none;
+        color: #fff;
+    }
+
+    .avt-header-navigation{
+        display: none;
+    }
+
+    .avt-header__button{
+        display: none;
+    }
+
+    .avt-first__h1{
+        padding-top: 185px;
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .avt-repair-blocks-photo{
+        flex-direction: column;
+    }
+
+}
