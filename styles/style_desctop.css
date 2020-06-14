@@ -20,7 +20,6 @@
 
     .avt-container__repair{
         max-width: 1236px;
-        margin: 0px;
         margin: 0px auto;
     }
 
@@ -192,6 +191,7 @@
     .avt-first{
         background-image: url("../images/first_background.jpg");
         background-size: cover;
+        background-position: center center;
         height: 707px;
         position: relative;
     }
@@ -500,7 +500,7 @@
         justify-content: space-between;
         align-items: stretch;
         height: 51px;
-        width: 769px;
+        max-width: 769px;
         margin: 0 auto;
         margin-bottom: 33px;
     }

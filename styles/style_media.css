@@ -70,6 +70,21 @@
     }
 
 /* projects */
+    
+    .avt-projects{
+        padding-top: 36px;
+        height: auto;
+    }
+
+    .avt-project-slider img{
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .avt-projects-rowdetail{
+        margin-bottom: 0px;
+    }
+
     .avt-projects-rownav, .avt-projects-detail-bottomnav, .avt-projects-colright {
         display: none;
     }
@@ -86,19 +101,22 @@
 
     .avt-projects-detail-datas-items{
         width: 50%;
+        padding-bottom: 27px;
     }
-    .avt-visible-mobile_line{
+
+/*    .avt-visible-mobile_line{
         display: inline-block;
     }
 
     .avt-visible-desctop_line{
         display: none;
     }
-
+*/
 
 /* control */
 
     .avt-control{
+        margin-top: 0px;
         background-color: #131313;
     }
 
@@ -124,30 +142,78 @@
         margin-bottom: 21px;
     }
 
+    .avt-control-form{
+        position: relative;
+        margin-bottom: 83px;
+    }
+
     .avt-control-form-line1{
         flex-direction: column;
-        width: 340px;
+        width: 100%;
+        height: auto;
     }
 
     .avt-control-form-line1-inputblock{
-        width: 340px;
+        width: 100%;
     }
 
     .avt-control__p{
-        width: 340px;
+        width: 100%;
         font-size: 11px;
         line-height: 1.7;
         margin-bottom: 61px;
+        color: #fff;
     }
 
     .avt-control-form-line1-inputblock:first-child{
         margin-bottom: 63px;
     }
 
+    .avt-control-form-line1-inputblock__caption{
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .avt-control-form-line1-inputblock__input{
+        color: #fff;
+        background-color: transparent;
+        border-bottom: solid 1px rgba(54, 54, 54, 1);
+    }
+    .avt-control-form-line1-inputblock__input::-webkit-input-placeholder {color:#fff; background-color: transparent;}
+    .avt-control-form-line1-inputblock__input::-moz-placeholder          {color:#fff; background-color: transparent;}/* Firefox 19+ */
+    .avt-control-form-line1-inputblock__input:-moz-placeholder           {color:#fff; background-color: transparent;}/* Firefox 18- */
+    .avt-control-form-line1-inputblock__input:-ms-input-placeholder      {color:#fff; background-color: transparent;}
+
+    .avt-control-form-line2{
+        justify-content: flex-start;
+        padding-bottom: 88px;
+    }
+
+    .avt-control-form-line2__label{
+        color: #fff;
+    }
+
+    .avt-control-form-line2__check+.avt-control-form-line2__label:hover {
+        color: #fff;
+    }
+
+    .avt-control-form-line1-inputblock__button{
+        position: absolute;
+        width: 100%;
+        bottom: -25px;
+        height: 51px;
+    }
+
 /* repair */
+    
+    .avt-repair-iconblock__icon{
+        margin-bottom: 40px;
+    }
+
+
     .avt-repair-blocks-photo{
         flex-direction: column;
         width: 340px;
+        margin-bottom: 79px;
     }
 
     .avt-repair-blocks-photo-items{
@@ -162,6 +228,7 @@
         width: 270px;
         height: 241px;
         margin-top: -110px;
+        margin-left: 0px;
     }
 
 }
