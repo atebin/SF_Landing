@@ -422,7 +422,7 @@
     }
 
     .avt-control-cameraview{
-        width: 817px;
+        max-width: 817px;
         /*height: 434px;*/
         margin: 0 auto;
         margin-bottom: 62px;
