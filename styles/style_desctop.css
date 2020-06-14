@@ -191,7 +191,7 @@
 
     .avt-first{
         background-image: url("../images/first_background.jpg");
-        background-size: cover; /* проверить для чего нужно!*/
+        background-size: cover;
         height: 707px;
         position: relative;
     }
@@ -423,20 +423,28 @@
 
     .avt-control-cameraview{
         width: 817px;
-        height: 434px;
+        /*height: 434px;*/
         margin: 0 auto;
         margin-bottom: 62px;
-        background-image: url("../images/control_perview.jpg");
-        background-size: cover;
+        /*background-image: url("../images/control_perview.jpg");
+        background-size: cover;*/
         position: relative;
+    }
+
+    .avt-control-cameraview img{
+        width: 100%;
     }
 
     .avt-control-cameraview:before{
         content: "";
-        width: 817px;
-        height: 434px;
+        /*width: 817px;*/
+        /*height: 434px;*/
         top: 0px;
         left: 0px;
+       /* bottom: 0px;
+        right: 0px;*/
+        width: 100%;
+        height: calc(100% - 5px);
         background: rgba(0, 0, 0, 0.8);
         position: absolute;
     }    
@@ -468,7 +476,8 @@
         background-size: cover;
         width: 55px;
         height: 3px;
-        margin: 62px auto 34px auto;
+        margin:0 auto;
+        margin-bottom: 34px;
     }
 
     .avt-control__p{

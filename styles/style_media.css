@@ -1,10 +1,11 @@
-@media screen and (max-width: 375px){
+
+@media screen and (max-width: 768px){
     .avt-container__topnav{
-        max-width: 340px;
+        max-width: calc(100vw - 35px);
     }
 
     .avt-container__main{
-        max-width: 340px;
+        max-width: calc(100vw - 35px);
     }
 
     .avt-container__header{
@@ -42,6 +43,10 @@
     }
 
 /* first */
+
+    .avt-first{
+        height: 476px;
+    }
 
     .avt-first__h1{
         padding-top: 85px;
@@ -82,21 +87,43 @@
     .avt-projects-detail-datas-items{
         width: 50%;
     }
-{
+    .avt-visible-mobile_line{
+        display: inline-block;
+    }
+
+    .avt-visible-desctop_line{
         display: none;
     }
 
 
 /* control */
-    .avt-control-cameraview, .avt-control-cameraview:before{
-        width: 340px;
-        height: 207px;
+
+    .avt-control{
+        background-color: #131313;
     }
 
-    .avt-control-form{
 
+    .avt-control-cameraview{
+        width: 100%;
+        margin-bottom: 28px;
     }
     
+    .avt-control-cameraview:before{
+        height: calc(100% - 6px);
+    }
+
+    .avt-control-cameraview:after{
+        width: 37px;
+        height: 37px;
+        top: calc(50% - 18px);
+        left: calc(50% - 18px);
+        background-size: 12px;
+    }
+
+    .avt-control__line{
+        margin-bottom: 21px;
+    }
+
     .avt-control-form-line1{
         flex-direction: column;
         width: 340px;
@@ -137,4 +164,11 @@
         margin-top: -110px;
     }
 
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+    .avt-first__button{
+        width: 50%;
+    }
 }
