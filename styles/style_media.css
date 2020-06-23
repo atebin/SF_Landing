@@ -78,7 +78,10 @@
 
     .avt-project-slider{
         position: relative;
-    }
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+     }
 
     .avt-project-slider img{
         width: 100%;
@@ -176,6 +179,7 @@
     }
 
     .avt-control-form-line1{
+        /*position: relative;*/
         flex-direction: column;
         width: 100%;
         height: auto;
@@ -211,6 +215,15 @@
     .avt-control-form-line1-inputblock__input:-moz-placeholder           {color:#fff; background-color: transparent;}/* Firefox 18- */
     .avt-control-form-line1-inputblock__input:-ms-input-placeholder      {color:#fff; background-color: transparent;}
 
+    .avt-control-form-line1-inputblock__button{
+        position: absolute;
+        width: 100%;
+        /*left: 0;
+        right: 0;*/
+        bottom: -25px;
+        height: 51px;
+    }
+
     .avt-control-form-line2{
         justify-content: flex-start;
         padding-bottom: 88px;
@@ -224,13 +237,6 @@
         color: #fff;
     }
 
-    .avt-control-form-line1-inputblock__button{
-        position: absolute;
-        width: 100%;
-        bottom: -25px;
-        height: 51px;
-    }
-
 /* repair */
     
     .avt-repair-iconblock__icon{
@@ -239,23 +245,29 @@
 
     .avt-repair-blocks-photo{
         flex-direction: column;
-        width: 340px;
+        /*width: 340px;*/
+        width: calc(100% - 20px);
+        margin: 0 auto;
         margin-bottom: 79px;
     }
 
     .avt-repair-blocks-photo-items{
+        margin: 0 auto;
         margin-bottom: 79px;
     }
 
     .avt-repair-blocks-img-item{
-        width: 340px;
+        /*width: 340px;*/
+        width: 100%;
         height: 365px;
     }
     .avt-repair-blocks-text-item{
         width: 270px;
-        height: 241px;
+        height: 275px;
         margin-top: -110px;
         margin-left: 0px;
+        padding-left: 25px;
+        padding-right: 5px;
     }
 
 }

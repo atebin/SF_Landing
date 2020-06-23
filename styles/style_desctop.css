@@ -1,5 +1,6 @@
 /* common */
-    body{
+
+    body {
         margin: 0px;
     }
 
@@ -8,33 +9,34 @@
         box-sizing: border-box;
     }
 
-    .avt-container__topnav{
+    .avt-container__topnav {
         max-width: 1250px;
         margin: 0px auto;
     }
 
-    .avt-container__main{
+    .avt-container__main {
         max-width: 1171px;
         margin: 0px auto;
     }
 
-    .avt-container__repair{
+    .avt-container__repair {
         max-width: 1236px;
         margin: 0px auto;
     }
 
-    .avt-container__zindex1{
+    .avt-container__zindex1 {
         position: relative;
         z-index: 1;
     }
 
-    .avt-visible-mobile_line{
+    .avt-visible-mobile_line {
         display: none;
     }
 
-    .avt-visible-desctop_line{
+    .avt-visible-desctop_line {
         display: inline-block;
     }
+
 
 /* buttons */
     .avt-button{
