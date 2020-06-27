@@ -33,8 +33,12 @@
         display: none;
     }
 
+    .avt-visible-mobile_big_line{
+        display: none;
+    }
+
     .avt-visible-desctop_line {
-        display: inline-block;
+        display: inline;
     }
 
 
@@ -298,6 +302,7 @@
         line-height: 1.929;
         margin-bottom: 42px;
         color: #FFFFFF;
+        padding-right: 20px;
     }
 
     .avt-projects-detail-photo{
@@ -313,7 +318,7 @@
 
     .avt-projects-detail-datas-items{
         width: 190px;
-        padding-right: 29px;
+        padding-right: 10px;
         padding-bottom: 34px;
     }
 
@@ -482,6 +487,8 @@
     }
 
     .avt-control-form{
+        max-width: 817px;/*-*/
+        margin: 0 auto;/*-*/
         margin-bottom: 147px;
     }
 
@@ -490,7 +497,7 @@
         justify-content: space-between;
         align-items: stretch;
         height: 51px;
-        max-width: 769px;
+        max-width: 817px;/*769*/
         margin: 0 auto;
         margin-bottom: 33px;
     }
@@ -527,6 +534,7 @@
 
     .avt-control-form-line1-inputblock__button{
         width: 200px;
+        max-width: 817px; /*-*/
         font-style: normal;
     }
 

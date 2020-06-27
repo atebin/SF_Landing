@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1279px){
     .avt-container__topnav{
         max-width: calc(100vw - 35px);
     }
@@ -13,7 +13,11 @@
     }
 
     .avt-visible-mobile_line{
-        display: inline-block;
+        display: inline;
+    }
+
+    .avt-visible-mobile_big_line{
+        display: none;
     }
 
     .avt-visible-desctop_line{
@@ -179,9 +183,7 @@
     }
 
     .avt-control-form-line1{
-        /*position: relative;*/
         flex-direction: column;
-        width: 100%;
         height: auto;
     }
 
@@ -225,9 +227,9 @@
     }
 
     .avt-control-form-line2{
-        justify-content: flex-start;
         padding-bottom: 88px;
-    }
+        justify-content: flex-start;
+     }
 
     .avt-control-form-line2__label{
         color: #fff;
@@ -272,9 +274,42 @@
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 1279px){
+
+    .avt-container__main{
+        width: 95%;
+        max-width: 817px;
+    }
+
+    .avt-visible-mobile_big_line{
+        display: inline;
+    }
 
     .avt-first__button{
         width: 50%;
+    }
+
+    .avt-projects-colleft{
+        margin: 0 auto;
+    }
+
+    .avt-control-form-line1{
+        flex-direction: row;
+    }
+
+    .avt-control-form-line1-inputblock{
+        width: calc((100% - 40px) / 2);
+    }
+
+    .avt-control-form-line1-inputblock:first-child {
+        margin-bottom: 0px;
+    }
+    .avt-control-form-line1-inputblock__button{
+        width: 50%;
+        left: 25%;
+     }
+
+    .avt-control-form-line2{
+        justify-content: center;
     }
 }
