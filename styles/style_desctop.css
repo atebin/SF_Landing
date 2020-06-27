@@ -652,3 +652,80 @@
         padding: 17px 5px;
         font-size: 400;
     }
+
+    /* STEPS */
+
+    .avt-steps{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .avt-steps-white{
+        padding: 55px 0px 55px 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-image: url("../images/steps.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 1006 645;
+        height: 584px;
+        width: 804px;
+
+    }
+
+    .avt-steps-black{
+        background-color: #131313;
+        color: #fff;
+        padding: 28px 49px;
+        width: 506px;
+    }
+
+    .avt-steps-black-inputblock{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .avt-steps-black-inputblock:last-child {
+        margin-bottom: 16px;
+    }
+
+    .avt-steps-black-title{
+        font-size: 18px;
+        line-height: 1.444;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .avt-steps-black-inputblock__caption{
+        padding: 0px;
+        margin: 0px;
+        font-size: 13px;
+        line-height: 1;
+        margin-bottom: 3px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .avt-steps-black-inputblock__input{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1;
+        border: none;
+        padding-bottom: 3px;
+        color: #fff;
+        background-color: transparent;
+        border-bottom: solid 1px rgba(54, 54, 54, 1);
+    }
+    .avt-steps-black-inputblock__input::-webkit-input-placeholder {color:#fff; background-color: transparent;}
+    .avt-steps-black-inputblock__input::-moz-placeholder          {color:#fff; background-color: transparent;}/* Firefox 19+ */
+    .avt-steps-black-inputblock__input:-moz-placeholder           {color:#fff; background-color: transparent;}/* Firefox 18- */
+    .avt-steps-blackinputblock__input:-ms-input-placeholder      {color:#fff; background-color: transparent;}
