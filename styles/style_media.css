@@ -272,6 +272,11 @@
         padding-right: 5px;
     }
 
+    /* STEPS , CLIENTS */
+
+    .avt-clients, .avt-steps{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1279px){
