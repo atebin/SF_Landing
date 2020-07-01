@@ -832,7 +832,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
-        margin-bottom: 120px;
+        /*margin-bottom: 120px;*/
     }
 
     .avt-clients-blocks-item{
@@ -903,4 +903,78 @@
     .avt-clients-blocks-item-info-text{
         margin-left: 15px;
     }
+
+/* magecity */
+
+    .avt-imagecity{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+
+        overflow: hidden;
+        opacity: 0.05;
+        margin-top: calc(-76px + 25px);
+    }
+
+    .avt-imagecity-item:first-child{
+        margin-right: -8px;
+    }
+
+    .avt-imagecity-item:last-child{
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        margin-left: -8px;
+    }
+
+/* question */
+
+    .avt-questions .avt-steps-black{
+        position: relative;
+        width: 71%;
+        margin: -222px auto 0px;
+        z-index: 1;
+        padding: 34px 181px;
+    }
+
+    .avt-questions .avt-control-form-line1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .avt-questions .avt-control-form-line1 .avt-steps-black-inputblock{
+        width: calc((100% - 58px) / 2);
+    }
+
+    .avt-questions .avt-control-form-line2, .avt-questions .avt-steps-black-lastline {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .avt-questions .avt-control-form-line2{
+        margin: 46px auto 50px;
+    }
+
+/* address */
+
+    .avt-address{
+        background-image: url("../images/address.jpg");
+        background-position: center center;
+        background-size: cover;
+        height: 955px;
+        position: relative;
+    }
+
+    .avt-address:before{
+        content: "";
+        background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+
 
