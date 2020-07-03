@@ -930,10 +930,12 @@
 
     .avt-questions .avt-steps-black{
         position: relative;
-        width: 71%;
+        width: 100%;
+        max-width: 880px;
         margin: -222px auto 0px;
-        z-index: 1;
+        z-index: 2;
         padding: 34px 181px;
+        height: 444px;
     }
 
     .avt-questions .avt-control-form-line1{
@@ -946,14 +948,19 @@
         width: calc((100% - 58px) / 2);
     }
 
-    .avt-questions .avt-control-form-line2, .avt-questions .avt-steps-black-lastline {
+    .avt-questions .avt-control-form-line2{
+        padding: 0;
+    } 
+    
+    .avt-questions .avt-steps-black-lastline {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
     .avt-questions .avt-control-form-line2{
-        margin: 46px auto 50px;
+        justify-content: center;
+        margin: 48px auto 52px;
     }
 
 /* address */
@@ -964,6 +971,9 @@
         background-size: cover;
         height: 955px;
         position: relative;
+        margin-top: -222px;
+        position: relative;
+        z-index: 1;
     }
 
     .avt-address:before{
@@ -977,11 +987,17 @@
         z-index: 1;
     }
 
+    .avt-address-inner {
+        padding: 274px 0 65px;
+        height: 955px;
+    }
+
     .avt-address-container{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: stretch;
+        height: 100%;
     }
 
     .avt-address-container-text{
@@ -1021,10 +1037,27 @@
     }
 
     .avt-address-container-map{
-        background-image: url("../images/jpg_map.jpg");
         position: relative;
+        margin: 0 auto;
+        padding-top: calc((350 / 925) * 100%);
+        max-width: 925px;
+        width: 100%;
         z-index: 2;
+        overflow: hidden;
+    }
 
+    .avt-address-container-map-img{
+        background-image: url("../images/jpg_map.jpg");
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        /*height: 465px;*/
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 
 

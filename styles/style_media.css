@@ -318,3 +318,56 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 599px) {
+
+/* imagecity */
+
+    .avt-imagecity{
+        display: none;
+    }
+
+/* question */
+
+    .avt-questions .avt-container__main {
+        max-width: 100%;
+    }
+
+    .avt-questions .avt-steps-black{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -80px;
+    }
+
+    /*.avt-steps-black .avt-control-form-line1,*/
+    .avt-steps-black-title, 
+    .avt-steps-black-inputblock,
+    .avt-steps-black .avt-control-form-line2,
+    .avt-steps-black-lastline
+    {
+        max-width: calc(100vw - 35px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* address */
+
+    .avt-address{
+        margin-top: 0px;
+        height: 478px;
+    }
+
+    .avt-address-inner {
+        padding: 0px 0 65px;
+        height: 478px;
+    }
+
+    .avt-address-container-map{
+        order: -1;
+    }
+
+    .avt-address-container-map{
+        padding-top: calc((255 / 340) * 100%);
+        /*background-size: contain;*/
+    }
+}
