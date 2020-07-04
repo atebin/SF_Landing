@@ -354,12 +354,35 @@
 
     .avt-address{
         margin-top: 0px;
-        height: 478px;
+        height: 525px;
+        background-image: none;
+    }
+
+    .avt-address:before{
+        background-color:  #131313;
     }
 
     .avt-address-inner {
-        padding: 0px 0 65px;
-        height: 478px;
+        padding: 0px 0 50px;
+        height: 525px;
+    }
+
+    .avt-address-container-text{
+        font-size: 18px;
+        line-height: 1.385;
+    }
+
+    .avt-address-container-icon-item{
+        width: 39px;
+        height: 39px;    
+    }
+
+    .avt-address-container-icon-item--mail{
+        background-size: 20px 16px;
+    }
+
+    .avt-address-container-icon-item--insta{
+        background-size: 16px 16px;
     }
 
     .avt-address-container-map{
